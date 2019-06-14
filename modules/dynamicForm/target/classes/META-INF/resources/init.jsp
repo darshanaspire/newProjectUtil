@@ -18,6 +18,7 @@ taglib
 <div class="hide" id="resourceURL">${resourceURL}</div>
 
 <portlet:actionURL var="editDynamicFormURL" name="/editDynamicForm">
+	<portlet:param name="editProcess" value="true"></portlet:param>
 </portlet:actionURL>
 
 <portlet:renderURL var="viewDynamicFormURL">
@@ -25,8 +26,3 @@ taglib
 </portlet:renderURL>
 
 
-
-<portlet:resourceURL var="getObjectiveDataURL">
-	<portlet:param name="action" value="getObjectiveData"></portlet:param>
-</portlet:resourceURL>
-<div class="hide" id="getObjectiveDataURL">${getObjectiveDataURL}</div>

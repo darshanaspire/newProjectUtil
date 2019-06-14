@@ -23,9 +23,9 @@ public class EditDynamicForm extends BaseMVCActionCommand {
 	protected void doProcessAction(ActionRequest actionRequest, ActionResponse actionResponse) throws Exception {
 
 		log.info("This is Edit dynamic Form");
-		String isViewEdit = ParamUtil.getString(actionRequest, "isViewEdit");
-		actionRequest.setAttribute("isViewEdit", isViewEdit);
-		actionResponse.setRenderParameter("jspPage", "/create-CBSecondary.jsp");
+		String isViewEdit = ParamUtil.getString(actionRequest, "editProcess");
+		actionRequest.setAttribute("editProcess", isViewEdit);
+		actionResponse.setRenderParameter("jspPage", "/jsp/dynamicForm.jsp");
 		MessageUtils.hideDefualtSuccessMessage(actionRequest);
 	}
 }

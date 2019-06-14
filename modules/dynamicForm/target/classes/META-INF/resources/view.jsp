@@ -4,14 +4,13 @@
 <%@ page import="com.liferay.portal.kernel.util.Validator"%>
 
 <p>
-	<b><liferay-ui:message key="dynamicform.caption"/></b>
+	<b><liferay-ui:message key="dynamicform.caption" /></b>
 </p>
-<aui:button name="resourceurlbtn" value="value" onClick="callResourceUrl();" />
+<aui:button name="resourceurlbtn" value="value"
+	onClick="callResourceUrl();" />
 <aui:button-row>
-    <aui:button onClick="<%= viewDynamicFormURL.toString() %>" value="View Dynamic Form"></aui:button>
-</aui:button-row>
-<aui:button-row>
-    <aui:button onClick="<%= editDynamicFormURL.toString() %>" value="Edit Dynamic Form"></aui:button>
+	<aui:button onClick="<%= viewDynamicFormURL.toString() %>"
+		value="View Dynamic Form"></aui:button>
 </aui:button-row>
 
 

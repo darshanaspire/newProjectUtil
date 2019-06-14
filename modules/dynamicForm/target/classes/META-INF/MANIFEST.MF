@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1560507399651
+Bnd-LastModified: 1560510806613
 Bundle-ManifestVersion: 2
 Bundle-Name: dynamicForm
 Bundle-SymbolicName: com.aspire.newprojectutil
