@@ -17,9 +17,8 @@ taglib
 <portlet:resourceURL var="resourceURL"></portlet:resourceURL>
 <div class="hide" id="resourceURL">${resourceURL}</div>
 
-<portlet:renderURL var="viewDynamicFormURL">
-	<portlet:param name="mvcPath" value="/jsp/dynamicForm.jsp"></portlet:param>
-</portlet:renderURL>
+<portlet:actionURL var="editDynamicFormURL" name="/editDynamicForm">
+</portlet:actionURL>
 
 <portlet:renderURL var="viewDynamicFormURL">
 	<portlet:param name="mvcPath" value="/jsp/dynamicForm.jsp"></portlet:param>

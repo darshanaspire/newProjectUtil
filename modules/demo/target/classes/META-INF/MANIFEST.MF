@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1560504637698
+Bnd-LastModified: 1560506465074
 Bundle-ManifestVersion: 2
 Bundle-Name: demo
 Bundle-SymbolicName: demo

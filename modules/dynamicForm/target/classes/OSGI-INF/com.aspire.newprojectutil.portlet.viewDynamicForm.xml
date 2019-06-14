@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.aspire.newprojectutil.portlet.viewDynamicForm">
-  <implementation class="com.aspire.newprojectutil.portlet.viewDynamicForm"/>
-  <service>
-    <provide interface="com.liferay.portal.kernel.portlet.bridges.mvc.MVCActionCommand"/>
-  </service>
-  <property name="mvc.command.name" type="String" value="/viewDynamicForm"/>
-  <property name="javax.portlet.name" type="String" value="dynamicform"/>
-</scr:component>

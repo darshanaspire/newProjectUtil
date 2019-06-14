@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1560505818658
+Bnd-LastModified: 1560507399651
 Bundle-ManifestVersion: 2
 Bundle-Name: dynamicForm
 Bundle-SymbolicName: com.aspire.newprojectutil
@@ -9,11 +9,11 @@ Export-Package: com.aspire.newprojectutil.constants;version="1.0.0"
 Import-Package: com.liferay.portal.kernel.json;version="[7.0,8)",com.l
  iferay.portal.kernel.log;version="[7.0,8)",com.liferay.portal.kernel.
  portlet;version="[8.0,9)",com.liferay.portal.kernel.portlet.bridges.m
- vc;version="[1.6,2)",com.liferay.portal.kernel.util;version="[8.0,9)"
- ,javax.portlet,javax.servlet;version="[3.0,4)",javax.servlet.http;ver
- sion="[3.0,4)"
+ vc;version="[1.6,2)",com.liferay.portal.kernel.servlet;version="[7.11
+ ,8)",com.liferay.portal.kernel.util;version="[8.0,9)",javax.portlet,j
+ avax.servlet;version="[3.0,4)",javax.servlet.http;version="[3.0,4)"
 Private-Package: com.aspire.newprojectutil.model,com.aspire.newproject
- util.portlet,content
+ util.portlet,com.aspire.newprojectutil.util,content
 Provide-Capability: osgi.service;objectClass:List<String>="com.liferay
  .portal.kernel.portlet.bridges.mvc.MVCActionCommand",osgi.service;obj
  ectClass:List<String>="javax.portlet.Portlet",liferay.resource.bundle
@@ -31,6 +31,6 @@ Require-Capability: osgi.extender;filter:="(&(osgi.extender=jsp.taglib
  aPortlet)(version=3.0.0))",osgi.ee;filter:="(&(osgi.ee=JavaSE)(versio
  n=1.8))"
 Service-Component: OSGI-INF/com.aspire.newprojectutil.portlet.DynamicF
- ormPortlet.xml,OSGI-INF/com.aspire.newprojectutil.portlet.viewDynamic
+ ormPortlet.xml,OSGI-INF/com.aspire.newprojectutil.portlet.EditDynamic
  Form.xml
 Tool: Bnd-3.5.0.201709291849

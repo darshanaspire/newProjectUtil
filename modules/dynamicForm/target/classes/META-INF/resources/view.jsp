@@ -10,5 +10,8 @@
 <aui:button-row>
     <aui:button onClick="<%= viewDynamicFormURL.toString() %>" value="View Dynamic Form"></aui:button>
 </aui:button-row>
+<aui:button-row>
+    <aui:button onClick="<%= editDynamicFormURL.toString() %>" value="Edit Dynamic Form"></aui:button>
+</aui:button-row>
 
 
