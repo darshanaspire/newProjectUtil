@@ -1,0 +1,7 @@
+com/aspire/newprojectutil/model/Goal.class
+com/aspire/newprojectutil/model/Strategy.class
+com/aspire/newprojectutil/portlet/DynamicFormPortlet.class
+com/aspire/newprojectutil/model/Objective.class
+com/aspire/newprojectutil/model/Measure.class
+com/aspire/newprojectutil/portlet/viewDynamicForm.class
+com/aspire/newprojectutil/constants/DynamicFormPortletKeys.class

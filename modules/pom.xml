@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>newprojectutil</groupId>
+		<artifactId>newProjectUtil</artifactId>
+		<version>1.0.0</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+	<artifactId>newProjectUtil-modules</artifactId>
+	<name>newProjectUtil Modules</name>
+	<packaging>pom</packaging>
+	<modules>
+		<module>dynamicForm</module>
+    <module>demo</module>
+  </modules>
+	<properties>
+		<liferay.home>/home/aspire101/Darshan/newProjectUtils/liferay-portal-7.1.2-ga3</liferay.home>
+	</properties>
+</project>
